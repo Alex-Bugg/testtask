@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 100px;
+}
+
+.optIn {
+  font-family: 'Roboto', sans-serif;
+}
+.optIn_title_wrap {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.optIn_title {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+} 
+
+.optIn_form_p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.optIn_form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.optIn_form-input {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 4px;
+  font-family: inherit;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.optIn_form-btn {
+  padding: 5px;
+  background-color: gold;
+  min-width: 168px;
+  color: black;
+  text-align: center;
+}
+
+.optIn_form_wrap_input {
+  display: flex;
+  margin-bottom: 10px;
+}
+.optIn_form-wrap_checkbox {
+  display: flex;
+}
+.optIn_form-checkbox {
+  margin-right: 4px;
+}
+
+.optIn_form_wrap {
+  margin-bottom: 10px;
+}
+
+.optIn_link {
+  text-decoration: underline;
+}
+
+.optIn_info {
+  text-align: right;
+}
